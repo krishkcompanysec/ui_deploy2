@@ -67,7 +67,7 @@ function Login() {
         
         {/*https://api.allorigins.win/get?url=https://themeshapp.herokuapp.com/authentication/login*/}   /*working*/
         
-        axios.post("https://themeshapp.herokuapp.com/authentication/login", payload).then((response) => {
+        axios.post("https://themeshapp.herokuapp.com/authentication/login/", payload).then((response) => {
  
         console.log("done");
          console.log(response);
